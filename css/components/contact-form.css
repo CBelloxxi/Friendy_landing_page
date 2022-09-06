@@ -1,0 +1,196 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 2px solid #8D6A9F; /* Gray border */
+  border-radius: 5px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #8D6A9F;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  background-color: #fff;
+  color: #8D6A9F;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #a384b2;
+}
+
+input[type=reset]:hover {
+  background-color: #a384b2;
+}
+
+input[placeholder]{
+  font-size: 20px;
+}
+
+option[disabledselected]{
+  font-size: 50px;
+}
+
+label[for=fname]{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+label[for=lname]{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+label[for=email]{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+label[for=number]{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+label[for=hear-us]{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+label[for=subject]{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+label[for=subject],::placeholder{
+  font-size: 15px;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  /* padding: 20px; */
+  margin: 0% 0% 0% -2%;
+}
+
+.select{
+  color: grey;
+  font-size: 15px;
+}
+
+.label{
+  color: white;
+}
+
+@media (max-width: 1050px){
+  label[for=fname]{
+    font-size: 22px;
+  }
+
+  label[for=lname]{
+    font-size: 22px;
+  }
+
+  label[for=email]{
+    font-size: 22px;
+  }
+
+  label[for=number]{
+    font-size: 22px;
+  }
+
+  label[for=hear-us]{
+    font-size: 22px;
+  }
+
+  label[for=subject]{
+    font-size: 22px;
+  }
+
+  input[type=reset] {
+    margin: 0% 0% 5% 77.5%;
+  }
+
+}
+
+@media (max-width: 800px){
+  label[for=fname]{
+    font-size: 19px;
+  }
+
+  label[for=lname]{
+    font-size: 19px;
+  }
+
+  label[for=email]{
+    font-size: 19px;
+  }
+
+  label[for=number]{
+    font-size: 19px;
+  }
+
+  label[for=hear-us]{
+    font-size: 19px;
+  }
+
+  label[for=subject]{
+    font-size: 19px;
+  }
+
+  input[type=reset] {
+    margin: 0% 0% 5% 69.5%;
+  }
+
+}
+
+@media (max-width: 560px){
+  label[for=fname]{
+    font-size: 15px;
+  }
+
+  label[for=lname]{
+    font-size: 15px;
+  }
+
+  label[for=email]{
+    font-size: 15px;
+  }
+
+  label[for=number]{
+    font-size: 15px;
+  }
+
+  label[for=hear-us]{
+    font-size: 15px;
+  }
+
+  label[for=subject]{
+    font-size: 15px;
+  }
+
+  input[type=reset] {
+    margin: 0% 0% 5% 43%;
+  }
+
+  @media (max-width: 380px){
+    input[type=reset] {
+      margin: 0% 0% 5% 35%;
+    }
+  }
+}
