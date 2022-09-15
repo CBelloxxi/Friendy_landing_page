@@ -480,6 +480,10 @@ footer{
       margin: 1% -2% 0% -1%;
     }
 
+    .who-are-we {
+      margin: 5% 8% 10% 10%;
+    }
+
     .who-are-we .content-2 h2{
       font-size: 65px;
     }
@@ -523,95 +527,64 @@ footer{
     }
 
     .faq{
-      display: flex;
-      max-width: 65%;
-      position: relative;
-      margin: -15% 0% 0% 5%
+      margin: 0% 0% 0% 10%;
     }
 
     .faq .content-4 h2{
-      color: #8D6A9F;
-      font-size: 45px;
-      font-weight: 600;
+      font-size: 65px;
     }
 
     .faq .content-4 p{
-      color: #fff;
-      font-size: 20px;
-      font-weight: 500;
-      margin-bottom: 40px;
-      margin-top: 30px;
+      font-size: 30px;
+      margin: 3% 0% 5% 0%;
     }
 
-    .reviews{
-      /* max-width:90%; */
-      /* position: relative; */
-      /* margin: 0px 97px; */
-      /* padding-top: 5%; */
+    .accordion-menu h3 {
+      font-size: 30px;
+      line-height: 36px;
+      padding: 1% 0% 0% 0%;
+    }
+
+    .accordion-menu p {
+      font-size: 25px;
+      line-height: 36px;
     }
 
     .reviews h2{
-      /* color: #8D6A9F; */
       font-size: 65px;
-      /* font-weight: 600; */
+      margin: 0% 0% 0% 46%;
     }
 
     .reviews p{
-      /* color: #fff; */
       font-size: 30px;
-      /* font-weight: 500; */
       margin: 2% 0% 6% 0%;
     }
 
+    /* To modify reviews testimonial area, modify container width. */
+
     #testimonial_area{
-      margin: 2% 0% 0% 25%;
+      margin: 2% 0% 0% 7%;
     }
 
     .box-area{
-      padding: 30px;
-      position: relative;
-      display: block;
-      background: rgba(141, 106, 159, 0.85);
-      color: #000;
-      /* box-shadow: rgba(0,0,0,0.35) 0 5px 15px; */
-      margin: 5% 5% 5% 5%;
+      padding: 45% 5% 10% 5%;
       z-index: 1;
-      border-radius: 5px;
     }
 
     .box-area h5{
       font-size: 30px;
-      font-weight: 700;
-      color: #bdebe9;
-      margin-top: 50px;
+      margin-top: 1%;
       margin-bottom: 5px;
-      text-transform: uppercase;
-      /* letter-spacing: 1px; */
-    }
-
-    .box-area p{
-      font-size: 30px;
-      letter-spacing: 1px;
-      color: #fff;
     }
 
     .box-area span{
-      color: #fff;
-      display: block;
       font-size: 30px;
-      margin: 10% 10% 10% 10%;
       font-weight: 400;
     }
 
     .box-area .img-area img {
       width: 30%;
-      top: -40px;
-      left: 0px;
-      right: 0px;
-      margin: 0 auto;
-      border-radius: 50%;
-      position: absolute;
-      z-index: 1;
+      top: 7%;
     }
 
     .socials{
@@ -619,8 +592,6 @@ footer{
     }
 
     .socials i{
-      margin: 0 10px;
-      color: #bdebe9;
       font-size: 30px;
     }
 
@@ -632,85 +603,47 @@ footer{
 
     #testimonial_area .owl-prev,
     #testimonial_area .owl-next{
-      width: 40px;
-      height: 40px;
-      line-height: 40px;
-      color: #fff;
-      border-radius: 50%;
-      text-align: center;
-      background: rgba(141, 106, 159, 0.85);
-      position: absolute;
+      width: 60px;
+      height: 60px;
     }
 
     #testimonial_area .owl-prev{
-      left: -60px;
-      top: 170px;
+      left: -90px;
+      top: 470px;
     }
 
     #testimonial_area .owl-next{
-      right: -60px;
-      top: 170px;
+      right: -90px;
+      top: 470px;
     }
 
     .talk-to-us{
-      max-width: 100%;
-      max-height: max-content;
-      position: relative;
-      margin: 1% 10%;
-      padding-top: 5%;
+      margin: 0% 0% 0% 9%;
     }
 
     .talk-to-us .content-6 h2{
-      color: #8D6A9F;
-      font-size: 45px;
-      font-weight: 600;
-      margin: 0% 0% 0% -5%;
+      font-size: 65px;
+      margin: 10% 0% 1% 0%;
     }
 
     .talk-to-us .content-6 p{
-      color: #fff;
-      font-size: 20px;
-      font-weight: 500;
-      margin: 2% 0% 3% -5%;
+      font-size: 30px;
+      margin: 0% 0% 2% 0.5%;
     }
 
-    .media-icons{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 25px;
-      margin-top: 20%;
+    .container {
+      margin: 0% 0% 0% 0%;
+      max-width: 90%;
     }
 
-    .media-icons a{
-      position: relative;
-      color: #bdebe9;
-      font-size: 25px;
-      transition: 0.3s;
-      transition-property: transform;
-    }
-
-    .media-icons a:not(:last-child){
-      margin-right: 60px;
-    }
-
-    .media-icons a:hover{
-      transform: scale(1.5);
-    }
-
-    label{
-      display: none;
-    }
-
-    #check{
-      z-index: 3;
-      display: none;
+    .media-icons {
+      font-size: 30px;
     }
 
     footer{
-      margin: 10% 0% 5% 42%;
+      margin: 10% 0% 5% 44%;
       color: #fff;
-      font-size: 22px;
+      font-size: 30px;
       font-weight: 700;
     }
   }

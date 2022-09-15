@@ -126,6 +126,9 @@ label[for=subject],::placeholder{
     margin: 0% 0% 5% 77.5%;
   }
 
+  label[for=subject],::placeholder{
+    font-size: 130px;
+  }
 }
 
 @media (max-width: 800px){
@@ -193,4 +196,36 @@ label[for=subject],::placeholder{
       margin: 0% 0% 5% 35%;
     }
   }
+}
+
+@media (max-width: 2560px) {
+
+  label[for=fname]{
+    font-size: 30px;
+  }
+
+  label[for=lname]{
+    font-size: 22px;
+  }
+
+  label[for=email]{
+    font-size: 22px;
+  }
+
+  label[for=number]{
+    font-size: 22px;
+  }
+
+  label[for=hear-us]{
+    font-size: 22px;
+  }
+
+  label[for=subject]{
+    font-size: 22px;
+  }
+
+  input[type=reset] {
+    margin: 0% 0% 0% 90.5%;
+  }
+
 }
